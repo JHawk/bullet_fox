@@ -1,6 +1,8 @@
+import player.Player
+
 object Main {
   def main(args: Array[String]) {
     for (arg <- args)
-      println(arg + ", got it.")
+      println(new Player(arg,1,1))
   }
 }
